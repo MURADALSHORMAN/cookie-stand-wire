@@ -76,29 +76,32 @@ img {
     cursor: pointer;
     transition: 0.3s;
     white-space: nowrap;
-   }
+}
 
 .menu-link-main {
     text-decoration: none;
     color: var(--theme-color);
     padding: 0 30px;
+
     @media screen and (max-width: 1055px) {
-     display: none;
+        display: none;
     }
-   }
-   
-#fntsize1{
-    font-size: 15px;
-    
-}
-#fntsize2{
-    font-size: 13px;
-    
 }
 
-#addnew{
+#fntsize1 {
+    font-size: 15px;
+
+}
+
+#fntsize2 {
+    font-size: 13px;
+
+}
+
+#addnew {
     margin-left: 25px;
 }
+
 .app {
     background-color: var(--theme-bg-color);
     max-width: 1250px;
@@ -170,7 +173,7 @@ img {
 }
 
 
-#action2{
+#action2 {
     font-size: 13px;
 }
 
@@ -241,27 +244,30 @@ img {
     flex-grow: 1;
 }
 
-#CookiesStore{
+#CookiesStore {
     color: rgb(21, 248, 0);
-margin-left: 70px;
-margin-bottom: -50px;
+    margin-left: 70px;
+    margin-bottom: -50px;
 
 }
-#section{
+
+#section {
     margin-left: 100px;
     margin-bottom: 20px;
 
 }
 
-#cookie{
+#cookie {
     width: 100px;
     margin-right: 900px;
 }
-#fish{
+
+#fish {
     margin-left: 35%;
-width: 200px;
-height: 200px;
+    width: 200px;
+    height: 200px;
 }
+
 .content-wrapper {
     display: flex;
     flex-direction: column;
@@ -309,36 +315,39 @@ height: 200px;
     }
 }
 
-#prg2{
+#prg2 {
     width: 1000px;
     height: 470px;
     position: absolute;
     left: 250px;
     top: 500px;
 }
-#prg1{
+
+#prg1 {
     width: 350px;
     height: 470px;
     position: absolute;
     right: 250px;
     top: 500px;
 }
-#fot1{
+
+#fot1 {
     width: 1400px;
     height: 100px;
     position: absolute;
     right: 250px;
-    top:1000px;
+    top: 1000px;
 }
-#loctions{
+
+#loctions {
     width: 400px;
     height: 200px;
     position: relative;
     right: 0px;
-   
+
 }
 
-#workh{
+#workh {
     width: 400px;
     height: 200px;
     position: relative;
@@ -346,53 +355,55 @@ height: 200px;
     bottom: 210px;
 }
 
-#product{
+#product {
     width: 400px;
     height: 200px;
     position: relative;
     left: 800px;
-    bottom:  430px;
+    bottom: 430px;
 }
 
-#mainfish{
+#mainfish {
     width: 400px;
     height: 200px;
     position: absolute;
     right: 1500px;
     bottom: 650px;
-  
-}
-#ha1{
-    position: absolute;
-    right: 1200px;
-    bottom: 730px;  
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-color: white;
+
 }
 
-#bckgh{
+#ha1 {
+    position: absolute;
+    right: 1200px;
+    bottom: 730px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#bckgh {
     width: 1250px;
     height: 100px;
     position: absolute;
     right: 270px;
-    bottom: 720px; 
-    border-radius: 50px; 
+    bottom: 720px;
+    border-radius: 50px;
 }
 
-#salpg{
+#salpg {
     font-size: 20px;
     position: absolute;
     right: 340px;
-    bottom: 745px; 
+    bottom: 745px;
 }
-#salpg1{
+
+#salpg1 {
     font-size: 20px;
     position: absolute;
     right: 490px;
-    bottom: 745px; 
+    bottom: 745px;
 }
 
-#prg3{
+#prg3 {
     position: relative;
     right: 8px;
     width: 1410px;

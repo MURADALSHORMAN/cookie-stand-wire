@@ -141,12 +141,12 @@ function Fotable() {
         for (let j = 0; j < totalPurhour.length; j++) {
           y += totalPurhour[j];
         }
-        
+
 
       }
       let tdEl = document.createElement('td');
-        tr1El.appendChild(tdEl);
-        tdEl.textContent = y;
+      tr1El.appendChild(tdEl);
+      tdEl.textContent = y;
     }
   }
 
