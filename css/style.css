@@ -331,6 +331,18 @@ img {
     top: 500px;
 }
 
+#cokimg{
+width: 100px;
+position: relative;
+left: 80px;
+}
+#fshimg{
+    width: 150px;
+position: relative;
+left: 25px;
+bottom: 30px;
+
+}
 #fot1 {
     width: 1400px;
     height: 100px;
