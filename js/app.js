@@ -111,6 +111,15 @@ function Fotable() {
 
   let tr1El = document.createElement('tr');
   tableEl.appendChild(tr1El);
+  // for(let i=0;i<cookiesAry.length;i++)
+  // {
+  //   for(let j=0;j<cookiesAry.length;j++)
+  // {
+  //   let totalHour+=
+
+  // }
+
+  // }
   for (let i = 0; i <= totalPurhour.length; i++) {
     if (i == 0) {
       let tdEl = document.createElement('td');
@@ -127,16 +136,18 @@ function Fotable() {
 
 
     else if (i == totalPurhour.length) {
+      for (let i = 0; i < cookiesAry.length; i++) {
 
-      for (let j = 0; j < totalPurhour.length; j++) {
-        y += totalPurhour[j];
+        for (let j = 0; j < totalPurhour.length; j++) {
+          y += totalPurhour[j];
+        }
+        
+
       }
       let tdEl = document.createElement('td');
-      tr1El.appendChild(tdEl);
-      tdEl.textContent = y;
-
+        tr1El.appendChild(tdEl);
+        tdEl.textContent = y;
     }
-    // console.log(totalPurhour);
   }
 
 };
