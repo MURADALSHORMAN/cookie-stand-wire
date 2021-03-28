@@ -378,14 +378,14 @@ bottom: 30px;
 #mainfish {
     width: 400px;
     height: 200px;
-    position: absolute;
+    position: fixed;
     right: 1500px;
     bottom: 650px;
 
 }
 
 #ha1 {
-    position: absolute;
+    position: fixed;
     right: 1200px;
     bottom: 730px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -395,7 +395,7 @@ bottom: 30px;
 #bckgh {
     width: 1250px;
     height: 100px;
-    position: absolute;
+    position: fixed;
     right: 270px;
     bottom: 720px;
     border-radius: 50px;
@@ -403,14 +403,14 @@ bottom: 30px;
 
 #salpg {
     font-size: 20px;
-    position: absolute;
+    position: fixed;
     right: 340px;
     bottom: 745px;
 }
 
 #salpg1 {
     font-size: 20px;
-    position: absolute;
+    position: fixed;
     right: 490px;
     bottom: 745px;
 }
